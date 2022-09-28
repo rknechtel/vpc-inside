@@ -16,22 +16,19 @@
 # Requires requests:
 # Install with: sudo pip install requests
 #
-# References:
-# https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html#EC2.Client.modify_security_group_rules
-#
 # EXIT STATUS:
 #     Exit codes:
 #     0 = Success
 #     1 = Error
 #
-# Usage: vpc-inside.py [-h] -v VPC [-r REGION] [-p PROFILE]
+# Usage: vpc-inside.py [-h] -v VPC [-r REGION] [-p PROFILE] [-c yes/no]
 #
 # optional arguments:
 #  -h, --help                     show this help message and exit
 #  -v VPC, --vpc VPC              The VPC to annihilate
 #  -r REGION, --region REGION     AWS region that the VPC resides in
 #  -p PROFILE, --profile PROFILE  AWS profile
-#
+#  -c yes/no, --colorize yes/no   Add Colorization to output
 #
 # Update/Mutation Log:
 # Who                     | Date               | Update/Mutation
